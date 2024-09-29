@@ -8,7 +8,7 @@
 
 - 👀 I’m passionate about **Web Design** and **Development**.
 - 🌱 Currently sharpening my skills in the **MERN stack**.
-- 🧑🏻‍💻 Check out my E-commerce project: [BidBazzar](https://github.com/Punisher0617/BidBazzar-Ecommers.git) built using **PHP**.
+- 🧑🏻‍💻 Check out my E-commerce project: [BidBazzar](https://github.com/KrupalPatel17/BidBazzar-Ecommers.git) built using **PHP**.
 - 📫 Reach me via my social media links!
 
 ---
@@ -32,7 +32,7 @@
 
 ---
 
-## 📂 Featured Projects
+## 📂 Main Project of Batchelor 
 [![BidBazzar](https://github-readme-stats.vercel.app/api/pin/?username=Punisher0617&repo=BidBazzar-Ecommers&theme=radical)](https://github.com/Punisher0617/BidBazzar-Ecommers)
 
 ---
@@ -42,7 +42,3 @@
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/yourprofile)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Punisher0617)
 
-<!---
-Punisher0617/Punisher0617 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
