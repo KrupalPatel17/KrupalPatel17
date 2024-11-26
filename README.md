@@ -1,4 +1,4 @@
-# 👋 Hi, I’ m [Krupal Patel](https://github.com/KrupalPatel17) 
+# 👋 Hi, I’m [Krupal Patel](https://github.com/KrupalPatel17) 
 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" height="320">
