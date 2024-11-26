@@ -4,7 +4,7 @@
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" height="320">
 </p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Punisher0617&color=brightgreen)
+![Profile Views](https://komarev.com/ghpvc/?username=KrupalPatel17&color=brightgreen)
 
 - 👀 I’m passionate about **Web Design** and **Development**.
 - 🌱 Currently sharpening my skills in the **MERN stack**.
@@ -27,18 +27,18 @@
 ---
 
 ## 🏆 GitHub Stats
-![Krupal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Punisher0617&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Punisher0617&layout=compact&theme=radical)
+![Krupal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=KrupalPatel17&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KrupalPatel17&layout=compact&theme=radical)
 
 ---
 
 ## 📂 Main Project of Batchelor 
-[![BidBazzar](https://github-readme-stats.vercel.app/api/pin/?username=Punisher0617&repo=BidBazzar-Ecommers&theme=radical)](https://github.com/Punisher0617/BidBazzar-Ecommers)
+[![BidBazzar](https://github-readme-stats.vercel.app/api/pin/?username=KrupalPatel17&repo=BidBazzar-Ecommers&theme=radical)](https://github.com/KrupalPatel17/BidBazzar-Ecommers)
 
 ---
 
 ## 🔗 Connect with me:
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krupal-patel)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white)](https://twitter.com/yourprofile)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/Punisher0617)
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white)](https://github.com/KrupalPatel17)
 
