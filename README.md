@@ -76,9 +76,8 @@ const krupal = {
 <div align="center">
   
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krupal-patel-0993ba275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-
+[![Portfolio](https://img.shields.io/badge/-Portfolio-4CAF50?style=for-the-badge&logo=googlechrome&logoColor=white)](https://krupalpatel17.github.io/Resume/)
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KrupalPatel17)
-
 </div>
 
 ---
