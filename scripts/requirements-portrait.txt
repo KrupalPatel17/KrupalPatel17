@@ -1,0 +1,5 @@
+# Only needed to turn source-photo.* into portrait.svg (make-portrait.yml).
+Pillow
+numpy
+opencv-python-headless
+rembg[cpu]

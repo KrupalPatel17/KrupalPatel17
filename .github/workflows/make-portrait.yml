@@ -1,0 +1,60 @@
+name: Make ASCII portrait
+
+# Turns source-photo.(png|jpg|jpeg|webp) in the repo root into portrait.svg.
+# Runs whenever the photo or the portrait scripts change, or on demand.
+# Nothing to install locally: the background removal + ASCII conversion run here.
+
+"on":
+  push:
+    branches: [main]
+    paths:
+      - "source-photo.*"
+      - "scripts/prep_photo.py"
+      - "scripts/make_ascii_svg.py"
+      - "scripts/requirements-portrait.txt"
+      - ".github/workflows/make-portrait.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+jobs:
+  portrait:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements-portrait.txt
+
+      - name: Locate the source photo
+        id: photo
+        run: |
+          f=$(ls source-photo.png source-photo.jpg source-photo.jpeg source-photo.webp 2>/dev/null | head -n 1)
+          if [ -z "$f" ]; then
+            echo "::error::No source-photo.png / .jpg / .jpeg / .webp found in the repo root"
+            exit 1
+          fi
+          echo "file=$f" >> "$GITHUB_OUTPUT"
+
+      - name: Prep the photo (remove background, boost contrast)
+        run: python scripts/prep_photo.py "${{ steps.photo.outputs.file }}" source-prepped.png
+
+      - name: Render the typing ASCII portrait
+        run: python scripts/make_ascii_svg.py source-prepped.png portrait.svg
+
+      - name: Commit the portrait
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate ASCII portrait [skip ci]"
+          file_pattern: "portrait.svg"
